@@ -34,6 +34,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MeasureMicroarchitecture", 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MeasureMultithreading", "Projects\Template\MeasureMultithreading\MeasureMultithreading.vcxproj", "{DD578222-471A-42CE-89CE-455996CC94DC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BytesPerCycle", "Projects\LatencyAndThroughput\BytesPerCycle\BytesPerCycle.vcxproj", "{0052E856-3C44-4DF4-8180-883B48969EE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
@@ -51,6 +53,8 @@ Global
 		{A8B622B8-58A5-4DAE-90B3-F09970C3E9B0}.Release|x64.Build.0 = Release|x64
 		{DD578222-471A-42CE-89CE-455996CC94DC}.Release|x64.ActiveCfg = Release|x64
 		{DD578222-471A-42CE-89CE-455996CC94DC}.Release|x64.Build.0 = Release|x64
+		{0052E856-3C44-4DF4-8180-883B48969EE0}.Release|x64.ActiveCfg = Release|x64
+		{0052E856-3C44-4DF4-8180-883B48969EE0}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -61,6 +65,7 @@ Global
 		{1ED850DF-2679-4A14-B3FF-9175999EB732} = {5D00A5AC-7347-4F88-8237-E535D350D3C5}
 		{A8B622B8-58A5-4DAE-90B3-F09970C3E9B0} = {5D00A5AC-7347-4F88-8237-E535D350D3C5}
 		{DD578222-471A-42CE-89CE-455996CC94DC} = {5D00A5AC-7347-4F88-8237-E535D350D3C5}
+		{0052E856-3C44-4DF4-8180-883B48969EE0} = {40D6FE0C-C900-442B-86DB-CF19C852932C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7560A5B9-7585-419E-A3C8-C5DB97ADABB9}
