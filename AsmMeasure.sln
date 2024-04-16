@@ -62,6 +62,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CachePollutionFromWrite", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemCommitAccess", "Projects\Memory\MemCommitAccess\MemCommitAccess.vcxproj", "{3F50E81E-2320-4887-9CFA-055A97553E0D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryLatency", "Projects\Memory\MemoryLatency\MemoryLatency.vcxproj", "{A35F8FDC-28C5-4EFD-A556-C2CF1BC1AD5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
@@ -107,6 +109,8 @@ Global
 		{1D96F85A-7333-49F6-A671-091D8405D160}.Release|x64.Build.0 = Release|x64
 		{3F50E81E-2320-4887-9CFA-055A97553E0D}.Release|x64.ActiveCfg = Release|x64
 		{3F50E81E-2320-4887-9CFA-055A97553E0D}.Release|x64.Build.0 = Release|x64
+		{A35F8FDC-28C5-4EFD-A556-C2CF1BC1AD5B}.Release|x64.ActiveCfg = Release|x64
+		{A35F8FDC-28C5-4EFD-A556-C2CF1BC1AD5B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -131,6 +135,7 @@ Global
 		{900682E5-FC8B-471D-BBF7-C098F1B4B086} = {A534D3F6-03AB-4D53-AF69-A91C40C37879}
 		{1D96F85A-7333-49F6-A671-091D8405D160} = {A534D3F6-03AB-4D53-AF69-A91C40C37879}
 		{3F50E81E-2320-4887-9CFA-055A97553E0D} = {A534D3F6-03AB-4D53-AF69-A91C40C37879}
+		{A35F8FDC-28C5-4EFD-A556-C2CF1BC1AD5B} = {A534D3F6-03AB-4D53-AF69-A91C40C37879}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7560A5B9-7585-419E-A3C8-C5DB97ADABB9}
