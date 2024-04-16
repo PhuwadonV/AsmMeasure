@@ -44,6 +44,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmptyLoop", "Projects\Laten
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EmptyProc", "Projects\LatencyAndThroughput\EmptyProc\EmptyProc.vcxproj", "{A263685A-77B3-4065-9B7D-D7B266D306D2}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IndependentAdd", "Projects\LatencyAndThroughput\IndependentAdd\IndependentAdd.vcxproj", "{8D8EEE49-67CA-4817-87EB-29A08BB4EBCE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
@@ -71,6 +73,8 @@ Global
 		{AAED8409-CF81-4A86-83D1-57FDF9C91F82}.Release|x64.Build.0 = Release|x64
 		{A263685A-77B3-4065-9B7D-D7B266D306D2}.Release|x64.ActiveCfg = Release|x64
 		{A263685A-77B3-4065-9B7D-D7B266D306D2}.Release|x64.Build.0 = Release|x64
+		{8D8EEE49-67CA-4817-87EB-29A08BB4EBCE}.Release|x64.ActiveCfg = Release|x64
+		{8D8EEE49-67CA-4817-87EB-29A08BB4EBCE}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -86,6 +90,7 @@ Global
 		{0E981E38-087D-4C20-B6F4-B070179F77E6} = {40D6FE0C-C900-442B-86DB-CF19C852932C}
 		{AAED8409-CF81-4A86-83D1-57FDF9C91F82} = {40D6FE0C-C900-442B-86DB-CF19C852932C}
 		{A263685A-77B3-4065-9B7D-D7B266D306D2} = {40D6FE0C-C900-442B-86DB-CF19C852932C}
+		{8D8EEE49-67CA-4817-87EB-29A08BB4EBCE} = {40D6FE0C-C900-442B-86DB-CF19C852932C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7560A5B9-7585-419E-A3C8-C5DB97ADABB9}
