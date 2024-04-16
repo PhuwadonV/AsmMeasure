@@ -1,0 +1,3 @@
+INCLUDELIB msvcrt.lib
+
+END

@@ -24,6 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template", "Template", "{5D
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MeasureSimple", "Projects\Template\MeasureSimple\MeasureSimple.vcxproj", "{32982275-4E4E-4F67-BFFB-E024366B4C1A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Util", "Projects\Util\Util.vcxproj", "{2E20996D-560F-40CF-AEB9-2EC74850E6EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
@@ -31,6 +33,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{32982275-4E4E-4F67-BFFB-E024366B4C1A}.Release|x64.ActiveCfg = Release|x64
 		{32982275-4E4E-4F67-BFFB-E024366B4C1A}.Release|x64.Build.0 = Release|x64
+		{2E20996D-560F-40CF-AEB9-2EC74850E6EC}.Release|x64.ActiveCfg = Release|x64
+		{2E20996D-560F-40CF-AEB9-2EC74850E6EC}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
