@@ -82,6 +82,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AtomicInstruction", "Projec
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FalseSharing", "Projects\Multithreading\FalseSharing\FalseSharing.vcxproj", "{F9E84899-403D-4B18-BD1D-4E380C13E777}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryOrder", "Projects\Multithreading\MemoryOrder\MemoryOrder.vcxproj", "{2650B2F7-D19E-4961-9AE6-6D47E4E8D7C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
@@ -147,6 +149,8 @@ Global
 		{75AFEAB6-A3DD-4428-9839-7ADF47FC54E9}.Release|x64.Build.0 = Release|x64
 		{F9E84899-403D-4B18-BD1D-4E380C13E777}.Release|x64.ActiveCfg = Release|x64
 		{F9E84899-403D-4B18-BD1D-4E380C13E777}.Release|x64.Build.0 = Release|x64
+		{2650B2F7-D19E-4961-9AE6-6D47E4E8D7C4}.Release|x64.ActiveCfg = Release|x64
+		{2650B2F7-D19E-4961-9AE6-6D47E4E8D7C4}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -181,6 +185,7 @@ Global
 		{E759349D-37C6-4007-9FA2-C4A5BAD86698} = {FB3D5C55-9C5A-45A6-8DBE-2CEC1E1E8CF3}
 		{75AFEAB6-A3DD-4428-9839-7ADF47FC54E9} = {FD4EE9C1-7B07-4DDF-9160-25AA8C1A7442}
 		{F9E84899-403D-4B18-BD1D-4E380C13E777} = {FD4EE9C1-7B07-4DDF-9160-25AA8C1A7442}
+		{2650B2F7-D19E-4961-9AE6-6D47E4E8D7C4} = {FD4EE9C1-7B07-4DDF-9160-25AA8C1A7442}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7560A5B9-7585-419E-A3C8-C5DB97ADABB9}
