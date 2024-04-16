@@ -22,9 +22,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multithreading", "Multithre
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template", "Template", "{5D00A5AC-7347-4F88-8237-E535D350D3C5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MeasureSimple", "Projects\Template\MeasureSimple\MeasureSimple.vcxproj", "{32982275-4E4E-4F67-BFFB-E024366B4C1A}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32982275-4E4E-4F67-BFFB-E024366B4C1A}.Release|x64.ActiveCfg = Release|x64
+		{32982275-4E4E-4F67-BFFB-E024366B4C1A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{32982275-4E4E-4F67-BFFB-E024366B4C1A} = {5D00A5AC-7347-4F88-8237-E535D350D3C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7560A5B9-7585-419E-A3C8-C5DB97ADABB9}
