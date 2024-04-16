@@ -26,6 +26,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MeasureSimple", "Projects\T
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Util", "Projects\Util\Util.vcxproj", "{2E20996D-560F-40CF-AEB9-2EC74850E6EC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MeasureLatencyAndThroughput", "Projects\Template\MeasureLatencyAndThroughput\MeasureLatencyAndThroughput.vcxproj", "{EE1B1C33-B617-45E9-9CE7-E1DB8B71F70A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
@@ -35,12 +37,15 @@ Global
 		{32982275-4E4E-4F67-BFFB-E024366B4C1A}.Release|x64.Build.0 = Release|x64
 		{2E20996D-560F-40CF-AEB9-2EC74850E6EC}.Release|x64.ActiveCfg = Release|x64
 		{2E20996D-560F-40CF-AEB9-2EC74850E6EC}.Release|x64.Build.0 = Release|x64
+		{EE1B1C33-B617-45E9-9CE7-E1DB8B71F70A}.Release|x64.ActiveCfg = Release|x64
+		{EE1B1C33-B617-45E9-9CE7-E1DB8B71F70A}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{32982275-4E4E-4F67-BFFB-E024366B4C1A} = {5D00A5AC-7347-4F88-8237-E535D350D3C5}
+		{EE1B1C33-B617-45E9-9CE7-E1DB8B71F70A} = {5D00A5AC-7347-4F88-8237-E535D350D3C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7560A5B9-7585-419E-A3C8-C5DB97ADABB9}
