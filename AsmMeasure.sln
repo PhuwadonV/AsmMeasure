@@ -90,6 +90,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SharedMemoryLatency", "Proj
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SharedMemoryLatencyAfterPrefetch", "Projects\Multithreading\SharedMemoryLatencyAfterPrefetch\SharedMemoryLatencyAfterPrefetch.vcxproj", "{948987E2-7261-4DA7-8AB6-0497B106768E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SharedWriteCombineMemoryLatency", "Projects\Multithreading\SharedWriteCombineMemoryLatency\SharedWriteCombineMemoryLatency.vcxproj", "{052D59B5-4C19-4EE7-B9F0-C8E5611267FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
@@ -163,6 +165,8 @@ Global
 		{26331D9A-DC7D-4432-BEAA-D18D213DE531}.Release|x64.Build.0 = Release|x64
 		{948987E2-7261-4DA7-8AB6-0497B106768E}.Release|x64.ActiveCfg = Release|x64
 		{948987E2-7261-4DA7-8AB6-0497B106768E}.Release|x64.Build.0 = Release|x64
+		{052D59B5-4C19-4EE7-B9F0-C8E5611267FB}.Release|x64.ActiveCfg = Release|x64
+		{052D59B5-4C19-4EE7-B9F0-C8E5611267FB}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -201,6 +205,7 @@ Global
 		{39D5475A-DA00-4C8B-B6E6-CAB6BA9203D4} = {FD4EE9C1-7B07-4DDF-9160-25AA8C1A7442}
 		{26331D9A-DC7D-4432-BEAA-D18D213DE531} = {FD4EE9C1-7B07-4DDF-9160-25AA8C1A7442}
 		{948987E2-7261-4DA7-8AB6-0497B106768E} = {FD4EE9C1-7B07-4DDF-9160-25AA8C1A7442}
+		{052D59B5-4C19-4EE7-B9F0-C8E5611267FB} = {FD4EE9C1-7B07-4DDF-9160-25AA8C1A7442}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7560A5B9-7585-419E-A3C8-C5DB97ADABB9}
