@@ -68,6 +68,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MemoryLatencyAfterPrefetch"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReadFromWriteCombineMemory", "Projects\Memory\ReadFromWriteCombineMemory\ReadFromWriteCombineMemory.vcxproj", "{2580E530-9D57-4D48-8561-AA7C2662708C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WriteCombineMemoryLatency", "Projects\Memory\WriteCombineMemoryLatency\WriteCombineMemoryLatency.vcxproj", "{75AA3237-B1BC-4D2D-8962-FD05EF04934C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
@@ -119,6 +121,8 @@ Global
 		{BF5FB6CC-4BDF-4081-836D-C0CDD0D2A972}.Release|x64.Build.0 = Release|x64
 		{2580E530-9D57-4D48-8561-AA7C2662708C}.Release|x64.ActiveCfg = Release|x64
 		{2580E530-9D57-4D48-8561-AA7C2662708C}.Release|x64.Build.0 = Release|x64
+		{75AA3237-B1BC-4D2D-8962-FD05EF04934C}.Release|x64.ActiveCfg = Release|x64
+		{75AA3237-B1BC-4D2D-8962-FD05EF04934C}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,6 +150,7 @@ Global
 		{A35F8FDC-28C5-4EFD-A556-C2CF1BC1AD5B} = {A534D3F6-03AB-4D53-AF69-A91C40C37879}
 		{BF5FB6CC-4BDF-4081-836D-C0CDD0D2A972} = {A534D3F6-03AB-4D53-AF69-A91C40C37879}
 		{2580E530-9D57-4D48-8561-AA7C2662708C} = {A534D3F6-03AB-4D53-AF69-A91C40C37879}
+		{75AA3237-B1BC-4D2D-8962-FD05EF04934C} = {A534D3F6-03AB-4D53-AF69-A91C40C37879}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7560A5B9-7585-419E-A3C8-C5DB97ADABB9}
