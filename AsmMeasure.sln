@@ -78,6 +78,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SerializingExecution", "Pro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SpeculativeFetch", "Projects\MicroArchitecture\SpeculativeFetch\SpeculativeFetch.vcxproj", "{E759349D-37C6-4007-9FA2-C4A5BAD86698}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AtomicInstruction", "Projects\Multithreading\AtomicInstruction\AtomicInstruction.vcxproj", "{75AFEAB6-A3DD-4428-9839-7ADF47FC54E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
@@ -139,6 +141,8 @@ Global
 		{FD869346-D919-4704-B578-9F3FCC1E718B}.Release|x64.Build.0 = Release|x64
 		{E759349D-37C6-4007-9FA2-C4A5BAD86698}.Release|x64.ActiveCfg = Release|x64
 		{E759349D-37C6-4007-9FA2-C4A5BAD86698}.Release|x64.Build.0 = Release|x64
+		{75AFEAB6-A3DD-4428-9839-7ADF47FC54E9}.Release|x64.ActiveCfg = Release|x64
+		{75AFEAB6-A3DD-4428-9839-7ADF47FC54E9}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -171,6 +175,7 @@ Global
 		{5FFE1258-59BE-44BA-8611-81CE924C3533} = {FB3D5C55-9C5A-45A6-8DBE-2CEC1E1E8CF3}
 		{FD869346-D919-4704-B578-9F3FCC1E718B} = {FB3D5C55-9C5A-45A6-8DBE-2CEC1E1E8CF3}
 		{E759349D-37C6-4007-9FA2-C4A5BAD86698} = {FB3D5C55-9C5A-45A6-8DBE-2CEC1E1E8CF3}
+		{75AFEAB6-A3DD-4428-9839-7ADF47FC54E9} = {FD4EE9C1-7B07-4DDF-9160-25AA8C1A7442}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7560A5B9-7585-419E-A3C8-C5DB97ADABB9}
