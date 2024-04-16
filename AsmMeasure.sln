@@ -74,6 +74,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BranchPrediction", "Project
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FlushSelfCodeCache", "Projects\MicroArchitecture\FlushSelfCodeCache\FlushSelfCodeCache.vcxproj", "{5FFE1258-59BE-44BA-8611-81CE924C3533}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SerializingExecution", "Projects\MicroArchitecture\SerializingExecution\SerializingExecution.vcxproj", "{FD869346-D919-4704-B578-9F3FCC1E718B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
@@ -131,6 +133,8 @@ Global
 		{1C1F28F9-4FFB-4490-9599-2B37C5B218A4}.Release|x64.Build.0 = Release|x64
 		{5FFE1258-59BE-44BA-8611-81CE924C3533}.Release|x64.ActiveCfg = Release|x64
 		{5FFE1258-59BE-44BA-8611-81CE924C3533}.Release|x64.Build.0 = Release|x64
+		{FD869346-D919-4704-B578-9F3FCC1E718B}.Release|x64.ActiveCfg = Release|x64
+		{FD869346-D919-4704-B578-9F3FCC1E718B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -161,6 +165,7 @@ Global
 		{75AA3237-B1BC-4D2D-8962-FD05EF04934C} = {A534D3F6-03AB-4D53-AF69-A91C40C37879}
 		{1C1F28F9-4FFB-4490-9599-2B37C5B218A4} = {FB3D5C55-9C5A-45A6-8DBE-2CEC1E1E8CF3}
 		{5FFE1258-59BE-44BA-8611-81CE924C3533} = {FB3D5C55-9C5A-45A6-8DBE-2CEC1E1E8CF3}
+		{FD869346-D919-4704-B578-9F3FCC1E718B} = {FB3D5C55-9C5A-45A6-8DBE-2CEC1E1E8CF3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7560A5B9-7585-419E-A3C8-C5DB97ADABB9}
